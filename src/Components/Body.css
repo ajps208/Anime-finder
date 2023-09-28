@@ -1,0 +1,129 @@
+.mainbody {
+    padding-top: 90px;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 100vh;
+  }
+  .animebody{
+    padding-top: 90px;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 100vh;
+
+    background-color: black;
+  }
+  
+  .first {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    
+  }
+  
+  .anime-title {
+    font-size: 28px;
+    margin-bottom: 10px;
+    color:aqua;
+    
+  }
+  
+  .anime-poster {
+    width: 380px; /* Adjust the image width */
+    border: 3px solid #000;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2); /* Adding a shadow */
+    transition: .5s ease-in-out;
+  }
+  .anime-poster:hover{
+    transform: scale(1.01);
+  }
+  .second {
+    width: 50%;
+    margin-right: 40px;
+    color: #fff; /* Text color */
+  }
+  
+  .section-title {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color:aqua;
+  }
+  
+  .anime-description {
+    line-height: 1.4;
+    text-align: justify;
+  }
+  
+  .anime-details {
+    margin-top: 10px;
+  }
+  
+  .detail-title {
+    font-weight: bold;
+    margin-right: 10px;
+    color:aqua;
+  }
+  
+  .detail-value {
+    font-weight: normal;
+  }
+  
+  /* You can adjust the colors and styles as per your preference */
+  
+   
+img{
+  width: 180px;
+ 
+  margin-left: 25px;
+  margin-top: 8px;
+  margin-bottom: 8px;
+}
+.nav{
+  display: flex;
+  flex-direction: row;
+  background: radial-gradient(circle at 24.1% 68.8%, rgb(50, 50, 50) 0%, rgb(0, 0, 0) 99.4%);
+  position: fixed;
+  width: 100%;
+}
+.inputbox {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 15px;
+  margin-left: 800px;
+}
+
+.input-field {
+  padding: 10px;
+  border: 2px solid #007acc; /* Border color */
+  border-radius: 5px;
+  font-size: 16px;
+  outline: none;
+  transition: border-color 0.3s ease-in-out;
+  width: 350px;
+}
+
+.input-field:focus {
+  border-color: #ff6f61; /* Change border color when input is focused */
+}
+
+.submit-button {
+  background-color: #007acc; /* Background color */
+  color: #fff; /* Text color */
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  /* margin-left: 10px; */
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.submit-button:hover {
+  background-color: #ff6f61; /* Change background color on hover */
+}
